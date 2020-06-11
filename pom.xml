@@ -23,11 +23,16 @@
 				<artifactId>maven-war-plugin</artifactId>
 				<version>2.1.1</version>
 			</plugin>
+			<plugin>
+                           <groupId>org.jboss.as.plugins</groupId>
+                           <artifactId>jboss-as-maven-plugin</artifactId>
+                           <version>7.9.Final</version>
+                        </plugin>
 		</plugins>
 			</build>
 
 
-		<distributionManagement>
+<distributionManagement>
   <snapshotRepository>
     <id>nexus</id>
     <url>http://13.233.35.82:8081/nexus/content/repositories/snapshots</url>
